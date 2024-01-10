@@ -561,6 +561,7 @@ local servers = {
   -- clangd = {},
   gopls = {},
   pyright = {},
+  intelephense = {},
   -- rust_analyzer = {},
   -- tsserver = {},
   html = { filetypes = { 'html', 'twig', 'hbs' } },
