@@ -260,6 +260,9 @@ require('lazy').setup({
   { import = 'custom.plugins' },
 }, {})
 
+require("vim-options")
+require("vim-keymaps")
+
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
