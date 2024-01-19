@@ -1,10 +1,12 @@
 return {
-  "folke/noice.nvim",
-  event = "VeryLazy",
-  opts = {
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts = {
+    },
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    }
   },
-  dependencies = {
-    "MunifTanjim/nui.nvim",
-    "rcarriga/nvim-notify",
-  }
 }
