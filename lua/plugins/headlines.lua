@@ -1,4 +1,4 @@
-{
+return {
   "lukas-reineke/headlines.nvim",
   opts = function()
     local opts = {}
